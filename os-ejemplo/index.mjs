@@ -1,16 +1,16 @@
-import os from 'os';
+import OS from 'os';
 
 //obtener la arquitectura del sistema
-console.log('Arquitectura:', os.arch());
+console.log('Arquitectura:', OS.arch());
 
 //obtener el tipo de sistema operativo 
-console.log('Plataforma: ', os.platform());
+console.log('Plataforma: ', OS.platform());
 
 //cantidad total de memoria
-console.log('Memoria total:', os.totalmem());
+console.log('Memoria total:', OS.totalmem());
 
 //memoria libre
-console.log('Memoria libre:', os.freemem());
+console.log('Memoria libre:', OS.freemem());
 
 //informacion de la CPU
-console.log('Informacion de la CPU:' , os.cpus());
+console.log('Informacion de la CPU:' , OS.cpus());
